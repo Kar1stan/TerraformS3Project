@@ -32,8 +32,8 @@ $ terraform init
 $ terraform apply
 
 ```
-If you want to destroy your resources in AWS open the terminal and run: 
+If you want to destroy your resources in AWS open the terminal and run(you need to comment lifecycle block in main.tf file for command to work): 
 ```
-$ terraform destroy (you need to comment lifecycle in main.tf file for command to work)
+$ terraform destroy 
 ```
 For further help or additional errors [here]([https://webdriver.io/docs/gettingstarted](https://developer.hashicorp.com/terraform/tutorials/aws-get-star))ted
