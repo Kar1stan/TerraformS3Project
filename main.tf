@@ -7,10 +7,9 @@ resource "aws_s3_bucket" "terraform_state" {
   bucket = "terraform-state-backend-aws"
  
   # Prevent accidental deletion of this S3 bucket
-  /*lifecycle {
+  lifecycle {
     prevent_destroy = true
   }
-  */
 }
 
 resource "aws_s3_bucket_versioning" "enabled" {
