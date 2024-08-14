@@ -1,5 +1,5 @@
 # TerraformS3Project
-Terraform project using AWS S3 and DynamoDB,creating remote backend for terraform.tfstate file.
+Terraform project using AWS S3 and DynamoDB,creating remote state backend for terraform.tfstate file.
 
 ## 💻 Topics
 
